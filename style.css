@@ -1,0 +1,67 @@
+body{
+    background-color:rgb(25, 25, 25);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.title{
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 30px
+
+}
+img{   
+    height: 80px;
+}
+.icon{
+    background-color: rgb(25, 25, 25);
+    border: solid;
+    border-color: white;
+    border-radius: 100px;
+    padding: 35px;
+    margin-left: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scoreboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    font-size: 30px;
+}
+.yscore{
+    margin-right: 40px;
+}
+.result{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.updateScore{
+    text-align: center;
+    font-size: 20px;
+}
+.reset-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reset,
+.autoplay{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(253, 185, 57);
+    color: rgb(25, 25, 25);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20px;
+}
